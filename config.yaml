@@ -1,0 +1,15 @@
+server:
+  port: 2001
+  model: debug
+db:
+  dialects: mysql
+  host: 127.0.0.1
+  port: 3306
+  db: admin-go-api
+  username: root
+  password: 123456
+  charset: utf8
+  maxIdle: 50
+  maxopen: 150
+redis:
+   
